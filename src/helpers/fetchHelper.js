@@ -1,4 +1,4 @@
-const fetchHelpers = (endpoint, data, method = "GET") => {
+export const fetchHelpers = (endpoint, data, method = "GET") => {
     const url = encodeURI(endpoint);
     // console.20g({url});
     if (method === "GET"){
